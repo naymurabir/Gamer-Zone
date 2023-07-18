@@ -1,0 +1,201 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+    max-width: 1140px;
+    border: 1px solid yellow;
+}
+
+/* Common Shared Styles */
+.span-color {
+    color: #FF42A5;
+}
+
+.text-icon {
+    width: 13px;
+}
+
+.primary-btn {
+    color: white;
+    background-color: #FF42A5;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 8px 15px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.go-rogue-color {
+    background-color: #4EC5F7;
+    ;
+}
+
+/* Navbar styles */
+.navbar {
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.navbar-logo-content {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-lists ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 40px;
+}
+
+.nav-title {
+    list-style: none;
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.list-item {
+    list-style: none;
+    color: #3C354F;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.list-icon {
+    width: 18px;
+}
+
+.navbar .list-item {
+    margin-right: 25px;
+    align-items: center;
+}
+
+.follow-us {
+    background-color: #E7E6E9;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Banner Section Styles */
+.banner {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px 150px;
+}
+
+.playing-zone {
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    padding: 20px 50px;
+}
+
+.playing-zone-heading {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: -30px;
+}
+
+.playing-zone-title {
+    color: #C74FCD;
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+.playing-zone-text {
+    color: #534C64;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.playing-zone-img {
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+/* For Small/ Mobile devices */
+@media screen and (max-width:576px) {
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navbar-lists ul {
+        flex-direction: column;
+    }
+
+    .list-item {
+        margin-bottom: 20px;
+    }
+
+    /* Banner*/
+    .banner {
+        flex-direction: column-reverse;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .playing-zone {
+        width: 300px;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+
+    .playing-zone-img {
+        width: 300px;
+    }
+}
+
+/* For Medium/Tablet Devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    /* Navbar */
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .list-item {
+        margin-bottom: 20px;
+    }
+
+    /* Banner*/
+    .banner {
+        padding: 10px;
+        align-items: center;
+    }
+
+    .playing-zone {
+        width: 300px;
+        padding-right: 20px;
+        margin-top: 20px;
+    }
+
+    .playing-zone-img {
+        width: 300px;
+    }
+}
