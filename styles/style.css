@@ -30,13 +30,12 @@ body {
 
 .go-rogue-color {
     background-color: #4EC5F7;
-    ;
 }
 
 .primary-title {
     color: #0B0223;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .primary-description {
@@ -149,7 +148,7 @@ body {
 .we-gamer-title {
     color: #B851D6;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
 
 }
 
@@ -175,6 +174,10 @@ body {
 /* Online Games Funny Video Section Styles */
 .online-games-heading {
     text-align: center;
+}
+
+.online-games-title {
+    color: #0B0223;
 }
 
 .online-games-container {
