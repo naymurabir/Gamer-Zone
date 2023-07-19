@@ -35,8 +35,6 @@ body {
     color: #0B0223;
     font-size: 25px;
     font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 .primary-description {
@@ -446,6 +444,7 @@ footer {
     }
 
     /* Online Games Funny Videos */
+
     .online-games-container {
         flex-direction: column;
         text-align: center;
@@ -453,6 +452,31 @@ footer {
 
     .online-games-container img {
         width: 300px;
+    }
+
+    .online-games-container .play-icon {
+        width: 30px;
+        position: relative;
+        top: 160px;
+        left: 5px;
+    }
+
+    .watch-now {
+        color: red;
+        font-size: 15px;
+        font-weight: 400;
+        position: relative;
+        top: 155px;
+        left: 8px;
+    }
+
+    .hover-play {
+        width: 300px;
+        height: 344px;
+        background-color: rgba(255, 255, 255, 0.60);
+        position: relative;
+        bottom: 408px;
+        opacity: 0;
     }
 
     /* Play Instantly */
