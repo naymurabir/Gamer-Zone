@@ -240,6 +240,7 @@ body {
     padding: 20px 100px;
     gap: 15px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .games-types {
@@ -269,7 +270,85 @@ body {
     font-size: 12px;
 }
 
+/* Footer Styles */
+footer {
+    background-color: #0B0223;
+    padding: 40px 0px;
 
+}
+
+.footer-heading {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer-img {
+    width: 40px;
+}
+
+.services .services-item {
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+.service-icon {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.terms-conditions .conditions-item {
+    list-style: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+
+
+/* -- */
+.footer-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.services ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.social-services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.terms-conditions ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.gamer-bd {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* --- */
 
 
 
