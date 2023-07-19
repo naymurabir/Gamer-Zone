@@ -188,6 +188,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 20px 150px;
+    margin-top: 40px;
 }
 
 .online-games-container img {
@@ -199,6 +200,15 @@ body {
     position: relative;
     top: 105px;
     left: 80px;
+}
+
+.watch-now {
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: 90px;
+    left: 55px;
 }
 
 .hover-play {
