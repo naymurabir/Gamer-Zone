@@ -105,9 +105,6 @@ body {
 }
 
 .playing-zone {
-    background-image: url('../images/Group\ 14.png');
-    background-repeat: no-repeat;
-    background-size: cover;
     width: 500px;
     padding: 20px 50px;
 }
