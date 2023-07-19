@@ -82,7 +82,8 @@ body {
 }
 
 .list-icon {
-    width: 18px;
+    width: 15px;
+    list-style: none;
 }
 
 .navbar .list-item {
@@ -92,7 +93,7 @@ body {
 
 .follow-us {
     background-color: #E7E6E9;
-    padding: 8px 15px;
+    padding: 6px 15px;
     border-radius: 5px;
 }
 
@@ -254,6 +255,13 @@ body {
     .navbar-lists ul {
         flex-direction: column;
     }
+
+    .navbar-lists .follow-us {
+        flex-direction: row;
+        align-items: center;
+        padding: 5px 15px;
+    }
+
 
     .list-item {
         margin-bottom: 20px;
